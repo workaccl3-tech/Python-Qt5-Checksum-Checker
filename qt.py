@@ -187,7 +187,7 @@ class QtDriver(QWidget):
         file_path, _ = QFileDialog.getOpenFileName(self, "Select File", "", "All Files (*.*)")
         if file_path:
             self.selected_file = file_path
-            self.file_info_label.setText(f"📂 File securely selected: {self.selected_file}")
+            self.file_info_label.setText(f"📂 File selected: {self.selected_file}")
             self.reset_styles()
             self.status_indicator.setText("")
 

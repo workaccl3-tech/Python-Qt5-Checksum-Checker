@@ -1,6 +1,6 @@
 import hashlib
 
-HASH_TYPES = ['md5', 'sha1', 'sha256', 'sha384', 'sha512']
+HASH_TYPES = ['md5', 'sha1', 'sha256', 'sha384', 'sha512', 'blake2b', 'blake2s']
 
 def generate_checksum(file_path, hash_type='md5'):
     """Generate a checksum for a file using the specified hash type."""
